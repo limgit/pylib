@@ -4,8 +4,8 @@
 """Python heap data structure implementation.
 
 This module implements the heap data structure, especially binary heap with
-array. It supports minheap and maxheap. Additional functionalities for heap are
-added for convenience with basic functions that heap ADT requires.
+array. It supports minheap and maxheap. Additional functionalities for heap
+are added for convenience with basic functions that heap ADT requires.
    
 """
 class Heap(object):

@@ -124,7 +124,8 @@ class Heap(object):
         """Add item to heap
 
         Args:
-            item (object): Item to add to the heap
+            item (object): Item to add to the heap. Item must be
+                comparable.
 
         Returns:
             None
@@ -160,7 +161,8 @@ class Heap(object):
 
         Args:
             old_item (object): Item already in the heap
-            new_item (object): Item that will replace old_item
+            new_item (object): Item that will replace old_item. It must
+                be comparable with items in the heap
 
         Returns:
             None

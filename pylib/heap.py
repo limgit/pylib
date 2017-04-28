@@ -19,7 +19,7 @@ class Heap(object):
                 0 means minheap and 1 means maxheap. Default is minheap.
         """
         if heaptype != 0 and heaptype != 1:
-            raise AttributeError("Argument only can be 0 or 1")
+            raise ValueError("Argument only can be 0 or 1")
         self.__heaptype = heaptype
         self.__heapcmp = -1 if heaptype == 0 else 1
         self.__heap = []
